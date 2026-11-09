@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+<rect width="800" height="450" fill="#dfe9ef"/>
+<rect x="90" y="130" width="620" height="250" rx="12" fill="#f9fbfc" stroke="#173b57" stroke-width="8"/>
+<rect x="330" y="240" width="140" height="140" fill="#245b7a"/>
+<rect x="160" y="195" width="100" height="75" fill="#8fc1d4"/>
+<rect x="540" y="195" width="100" height="75" fill="#8fc1d4"/>
+<polygon points="70,135 400,45 730,135" fill="#173b57"/>
+<circle cx="120" cy="80" r="30" fill="#e6b95c"/>
+<text x="400" y="420" text-anchor="middle" font-family="Arial" font-size="25" fill="#173b57">Neighbors • Resources • Connection</text>
+</svg>

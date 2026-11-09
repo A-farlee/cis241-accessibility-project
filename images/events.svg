@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+<rect width="800" height="300" fill="#f4f4f4"/>
+<rect x="140" y="40" width="520" height="220" rx="12" fill="#fff" stroke="#245b7a" stroke-width="7"/>
+<rect x="140" y="40" width="520" height="55" fill="#245b7a"/>
+<text x="400" y="78" text-anchor="middle" font-family="Arial" font-size="26" fill="#fff">Community Events</text>
+<circle cx="260" cy="160" r="35" fill="#e6b95c"/><circle cx="400" cy="160" r="35" fill="#8fc1d4"/><circle cx="540" cy="160" r="35" fill="#9bc59b"/>
+</svg>

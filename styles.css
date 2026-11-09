@@ -1,0 +1,38 @@
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.55;
+    color: #333;
+    background: #fff;
+}
+.site-header { background: #173b57; color: white; padding: 1rem 5%; }
+.brand { font-size: 1.7rem; font-weight: bold; }
+.tagline { margin: .25rem 0 0; }
+.navbar { background: #e8eef2; padding: .65rem 5%; }
+.navbar a { color: #173b57; text-decoration: none; margin-right: 1.25rem; }
+.navbar a:hover { text-decoration: underline; }
+main { max-width: 1050px; margin: auto; padding: 2rem 5%; }
+.hero { display: grid; grid-template-columns: 1.2fr 1fr; gap: 2rem; align-items: center; }
+.hero img, .wide-image { width: 100%; height: auto; border-radius: 8px; }
+.page-title { font-size: 2rem; font-weight: bold; margin-bottom: 1rem; }
+.section-title { font-size: 1.45rem; font-weight: bold; margin-top: 2rem; }
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.card { border: 1px solid #ddd; border-radius: 8px; padding: 1rem; }
+.muted { color: #777; }
+.notice { background: #f4f4f4; border-left: 5px solid #d44; padding: 1rem; }
+.required { color: #d22; }
+input, select, textarea { width: 100%; max-width: 520px; padding: .6rem; margin: .25rem 0 1rem; }
+button, .buttonlike { background: #245b7a; color: white; padding: .7rem 1rem; border: 0; border-radius: 4px; cursor: pointer; display: inline-block; }
+.buttonlike:focus { outline: none; }
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+td { border: 1px solid #bbb; padding: .65rem; }
+.table-head td { font-weight: bold; background: #e8eef2; }
+.status-open { color: green; font-weight: bold; }
+.status-full { color: red; font-weight: bold; }
+.site-footer { background: #173b57; color: white; padding: 1.5rem 5%; margin-top: 2rem; }
+.small { font-size: .9rem; }
+#confirmation { margin-top: 1rem; padding: .75rem; background: #e6f5e8; }
+@media (max-width: 750px) {
+    .hero, .cards { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Community Connect Center</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="site-header">
+  <div class="brand">Community Connect Center</div>
+  <p class="tagline">Connecting neighbors with programs, resources, and opportunities.</p>
+</div>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="services.html">Programs</a>
+  <a href="events.html">Click Here</a>
+  <a href="contact.html">Contact</a>
+</div>
+<main>
+
+<div class="page-title">Contact Us</div>
+<p>Send us a message and a staff member will respond within two business days.</p>
+
+<div class="notice">
+  <strong>Form instructions:</strong> Fields shown in <span class="required">red</span> are required.
+</div>
+
+<form onsubmit="event.preventDefault(); showConfirmation();">
+  <p class="required">Full Name</p>
+  <input type="text" id="name">
+
+  <input type="email" id="email" placeholder="Email Address">
+
+  <label for="topic">Topic</label>
+  <select id="topic" name="topic">
+    <option>Choose a topic</option>
+    <option>Programs</option>
+    <option>Events</option>
+    <option>Volunteering</option>
+  </select>
+
+  <p class="required">Message</p>
+  <textarea id="message" rows="6"></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+
+<div id="confirmation" style="display:none"></div>
+</main>
+<div class="site-footer">
+  <p><strong>Community Connect Center</strong></p>
+  <p class="small">A fictional website created for CIS 241 accessibility evaluation practice.</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
